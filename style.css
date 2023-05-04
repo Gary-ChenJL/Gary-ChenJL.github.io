@@ -54,19 +54,19 @@ section::before {
 
 #home img {
 	margin-top: 5px;
-	width: 200px;
-	height: 200px;
+	max-width: 20%;
+	height: auto;
 }
 
 #home .greeting1 {
-	color: #150202;
+	color: #282424;
 	font-size: 2.3em;
 	margin-top: 2rem;
 }
 
 .greeting2 {
-	color: rgba(3, 3, 3, 0.7);
-	font-size: 1.5em;
+	color: rgba(55, 60, 62, 0.74);
+	font-size: 1.3em;
 }
 
 .arrow-down {
