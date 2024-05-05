@@ -13,29 +13,29 @@ $(window).scroll(function () {
 // Animation of skills set
 $(window).scroll(function () {
 	if ($(this).scrollTop() > 200) {
-		$(".java").animate({
-			width: "80%"
+		$(".c").animate({
+			width: "85%"
 		}, 2000)
 	}
 });
 $(window).scroll(function () {
 	if ($(this).scrollTop() > 200) {
 		$(".Python").animate({
-			width: "75%"
+			width: "80%"
 		}, 2000)
 	}
 });
 $(window).scroll(function () {
 	if ($(this).scrollTop() > 200) {
-		$(".C").animate({
-			width: "75%"
+		$(".Java").animate({
+			width: "70%"
 		}, 2000)
 	}
 });
 $(window).scroll(function () {
 	if ($(this).scrollTop() > 200) {
-		$(".x").animate({
-			width: "65%"
+		$(".Cpp").animate({
+			width: "75%"
 		}, 2000)
 	}
 });
@@ -98,7 +98,7 @@ function zoomImage(event) {
 }
 
 // Animation of self introduction
-const introduction = ["Good at MCU Programming and IoT Development", "Experienced Montaineer", "Racing Enthusiast", "Love to Travel", "Senior Computer Science Major at Georgia Tech"];
+const introduction = ["Good at MCU Programming and IoT Development", "Experienced Montaineer", "Racing Enthusiast", "Love to Travel", "ECE Master's student at UC San Diego"];
 
 let index = 0
 const changeIntro = setInterval(() => {
