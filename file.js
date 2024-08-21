@@ -13,7 +13,7 @@ $(window).scroll(function () {
 // Animation of skills set
 $(window).scroll(function () {
 	if ($(this).scrollTop() > 200) {
-		$(".c").animate({
+		$(".Cpp").animate({
 			width: "85%"
 		}, 2000)
 	}
@@ -34,7 +34,7 @@ $(window).scroll(function () {
 });
 $(window).scroll(function () {
 	if ($(this).scrollTop() > 200) {
-		$(".Cpp").animate({
+		$(".c").animate({
 			width: "75%"
 		}, 2000)
 	}
